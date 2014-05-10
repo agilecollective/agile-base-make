@@ -12,15 +12,15 @@ libraries[ckeditor][download][url] = "http://ckeditor.com/builder/download/b7dd5
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
-libraries[ckeditor][download][type]= "get"
-libraries[ckeditor][download][url] = "http://underscorejs.org/underscore-min.js"
-libraries[ckeditor][directory_name] = "underscore"
-libraries[ckeditor][destination] = "libraries"
+libraries[underscore][download][type]= "get"
+libraries[underscore][download][url] = "http://underscorejs.org/underscore-min.js"
+libraries[underscore][directory_name] = "underscore"
+libraries[underscore][destination] = "libraries"
 
-libraries[ckeditor][download][type]= "get"
-libraries[ckeditor][download][url] = "http://backbonejs.org/backbone-min.js"
-libraries[ckeditor][directory_name] = "backbone"
-libraries[ckeditor][destination] = "libraries"
+libraries[backbone][download][type]= "get"
+libraries[backbone][download][url] = "http://backbonejs.org/backbone-min.js"
+libraries[backbone][directory_name] = "backbone"
+libraries[backbone][destination] = "libraries"
 
 ; Modules =====================================================================
 
