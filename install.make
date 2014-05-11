@@ -13,12 +13,12 @@ libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
 libraries[underscore][download][type]= "get"
-libraries[underscore][download][url] = "http://underscorejs.org/underscore-min.js"
+libraries[underscore][download][url] = "https://github.com/jashkenas/underscore/archive/1.6.0.zip"
 libraries[underscore][directory_name] = "underscore"
 libraries[underscore][destination] = "libraries"
 
 libraries[backbone][download][type]= "get"
-libraries[backbone][download][url] = "http://backbonejs.org/backbone-min.js"
+libraries[backbone][download][url] = "https://github.com/jashkenas/backbone/archive/1.1.2.zip"
 libraries[backbone][directory_name] = "backbone"
 libraries[backbone][destination] = "libraries"
 
@@ -99,6 +99,7 @@ projects[ac_adminimal][subdir] = "custom"
 ; Omega is at the top of the theme chain.
 projects[omega][type] = "theme"
 projects[omega][subdir] = "contrib"
+projects[omega][version] = "4.x-dev"
 
 ; Our parent base theme which in turn is based on Omega 4.
 projects[ac_base][download][type] = "git"
