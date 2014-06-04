@@ -54,6 +54,7 @@ projects[libraries][subdir] = contrib
 projects[context_omega][subdir] = contrib
 
 ; HTML5 & theme related
+projects[html5_tools] = 1.x-dev
 projects[html5_tools][subdir] = contrib
 projects[elements][subdir] = contrib
 
@@ -81,6 +82,11 @@ projects[media] = 2.x-dev
 projects[media][subdir] = contrib
 projects[file_entity] = 2.x-dev
 projects[file_entity][subdir] = contrib
+
+; Patches =====================================================================
+
+; Patch the edit module to fix front end editing of node forms.
+projects[edit][patch][] = "https://drupal.org/files/issues/node_edit_js_error-2264607-2.patch"
 
 ; Themes ======================================================================
 
