@@ -82,6 +82,7 @@ projects[media] = 2.x-dev
 projects[media][subdir] = contrib
 projects[file_entity] = 2.x-dev
 projects[file_entity][subdir] = contrib
+projects[ckeditor_media][subdir] = contrib
 
 ; Patches =====================================================================
 
