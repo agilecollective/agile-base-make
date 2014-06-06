@@ -23,7 +23,7 @@ libraries[backbone][directory_name] = "backbone"
 libraries[backbone][destination] = "libraries"
 
 libraries[backbone][download][type]= "get"
-libraries[modernizr][download][url] = "https://github.com/Modernizr/Modernizr/archive/v2.7.1.tar.gz"
+libraries[modernizr][download][url] = "drush make https://raw.githubusercontent.com/agilecollective/agile-base-make/master/modernizr.min.js"
 libraries[backbone][directory_name] = "modernizr"
 libraries[backbone][destination] = "libraries"
 
