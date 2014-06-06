@@ -39,7 +39,7 @@ projects[admin_views][subdir] = contrib
 projects[views_bulk_operations][subdir] = contrib
 projects[masquerade][subdir] = contrib
 projects[coffee][subdir] = contrib
-projects[navbar] = 1.x-dev
+projects[navbar] = 7.x-1.x-dev
 projects[navbar][subdir] = contrib
 
 ; Development
@@ -65,7 +65,7 @@ projects[responsive_tables] = 7.x-2.x-dev
 projects[responsive_tables][subdir] = contrib
 
 ; HTML5 & theme related
-projects[html5_tools] = 1.x-dev
+projects[html5_tools] = 7.x-1.x-dev
 projects[html5_tools][subdir] = contrib
 projects[elements][subdir] = contrib
 
@@ -85,15 +85,15 @@ projects[transliteration][subdir] = contrib
 projects[menu_block][subdir] = contrib
 projects[ckeditor][subdir] = contrib
 projects[edit][subdir] = contrib
-projects[linkit] = 3.x-dev
+projects[linkit] = 7.x-3.x-dev
 projects[linkit][subdir] = contrib
 projects[honeypot][subdir] = contrib
 projects[better_formats][subdir] = contrib
 
 ; Media
-projects[media] = 2.x-dev
+projects[media] = 7.x-2.x-dev
 projects[media][subdir] = contrib
-projects[file_entity] = 2.x-dev
+projects[file_entity] = 7.x-2.x-dev
 projects[file_entity][subdir] = contrib
 projects[ckeditor_media][subdir] = contrib
 
@@ -121,7 +121,7 @@ projects[ac_adminimal][subdir] = "custom"
 ; Omega is at the top of the theme chain.
 projects[omega][type] = "theme"
 projects[omega][subdir] = "contrib"
-projects[omega][version] = "4.x-dev"
+projects[omega][version] = 7.x-4.x-dev
 
 ; Our parent base theme which in turn is based on Omega 4.
 projects[ac_base][download][type] = "git"
