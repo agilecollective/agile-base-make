@@ -88,6 +88,8 @@ projects[ckeditor_media][subdir] = contrib
 
 ; Patch the edit module to fix front end editing of node forms.
 projects[edit][patch][] = "https://drupal.org/files/issues/node_edit_js_error-2264607-2.patch"
+; Provide nice hidpi icons for linkit in ckeditor
+projects[linkit][patch][] = "https://drupal.org/files/issues/hidpi_ckeditor_icons-2280511-1.patch"
 
 ; Themes ======================================================================
 
