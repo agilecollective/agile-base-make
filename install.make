@@ -22,6 +22,11 @@ libraries[backbone][download][url] = "https://github.com/jashkenas/backbone/arch
 libraries[backbone][directory_name] = "backbone"
 libraries[backbone][destination] = "libraries"
 
+libraries[backbone][download][type]= "get"
+libraries[modernizr][download][url] = "https://github.com/Modernizr/Modernizr/archive/v2.7.1.tar.gz"
+libraries[backbone][directory_name] = "modernizr"
+libraries[backbone][destination] = "libraries"
+
 ; Modules =====================================================================
 
 ; Admin
@@ -34,6 +39,8 @@ projects[admin_views][subdir] = contrib
 projects[views_bulk_operations][subdir] = contrib
 projects[masquerade][subdir] = contrib
 projects[coffee][subdir] = contrib
+projects[navbar] = 1.x-dev
+projects[navbar][subdir] = contrib
 
 ; Development
 projects[devel][subdir] = contrib
@@ -45,6 +52,7 @@ projects[environment_indicator][subdir] = contrib
 projects[maillog][subdir] = contrib
 projects[security_review][subdir] = contrib
 projects[jquery_update][subdir] = contrib
+projects[modernizr][subdir] = contrib
 
 ; Structure
 projects[ctools][subdir] = contrib
@@ -52,6 +60,9 @@ projects[context][subdir] = contrib
 projects[views][subdir] = contrib
 projects[libraries][subdir] = contrib
 projects[context_omega][subdir] = contrib
+projects[field_group][subdir] = contrib
+projects[responsive_tables] = 7.x-2.x-dev
+projects[responsive_tables][subdir] = contrib
 
 ; HTML5 & theme related
 projects[html5_tools] = 1.x-dev
