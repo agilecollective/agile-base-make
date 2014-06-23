@@ -68,6 +68,8 @@ projects[responsive_tables][subdir] = contrib
 projects[html5_tools][version] = 1.x-dev
 projects[html5_tools][subdir] = contrib
 projects[elements][subdir] = contrib
+projects[picture][subdir] = contrib
+projects[breakpoints][subdir] = contrib
 
 ; All other
 projects[pathauto][subdir] = contrib
