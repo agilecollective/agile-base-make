@@ -91,6 +91,8 @@ projects[linkit][version] = 3.x-dev
 projects[linkit][subdir] = contrib
 projects[honeypot][subdir] = contrib
 projects[better_formats][subdir] = contrib
+projects[responsive_menu][version] = 1.x-dev
+projects[responsive_menu][subdir] = contrib
 
 ; Media
 projects[media][version] = 2.x-dev
