@@ -8,7 +8,7 @@ projects[] = drupal
 ; Libraries ===================================================================
 
 libraries[ckeditor][download][type]= "get"
-libraries[ckeditor][download][url] = "http://ckeditor.com/builder/download/b7dd5107ff15df0a25c7a52a2d1bdb04"
+libraries[ckeditor][download][url] = "http://ckeditor.com/builder/download/048f3db3d50344ac0e470ac05072b030"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
