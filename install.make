@@ -108,6 +108,8 @@ projects[file_entity][subdir] = contrib
 projects[media][patch][] = "https://www.drupal.org/files/issues/media_wysiwyg_broken-2331293-5.patch"
 ; Allow media tags to work in ckeditor
 projects[ckeditor][patch][] = "https://www.drupal.org/files/issues/make_ckeditor_plugin-2159403-90.patch"
+; Provide some pleasing hiDPI icons for media in ckeditor
+projects[media][patch][] = "https://www.drupal.org/files/issues/hidpi_icon_for_ckeditor-2299859-4.patch"
 
 ; Themes ======================================================================
 
