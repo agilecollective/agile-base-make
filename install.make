@@ -87,12 +87,14 @@ projects[transliteration][subdir] = contrib
 projects[menu_block][subdir] = contrib
 projects[ckeditor][subdir] = contrib
 projects[quickedit][subdir] = contrib
+projects[quickedit][version] = 1.x-dev
 projects[linkit][version] = 3.x-dev
 projects[linkit][subdir] = contrib
 projects[honeypot][subdir] = contrib
 projects[better_formats][subdir] = contrib
 projects[responsive_menu][version] = 1.x-dev
 projects[responsive_menu][subdir] = contrib
+projects[htmlawed][subdir] = contrib
 
 ; Media
 projects[media][version] = 2.x-dev
@@ -103,10 +105,10 @@ projects[ckeditor_media][subdir] = contrib
 
 ; Patches =====================================================================
 
-; Patch the edit module to fix front end editing of node forms.
-projects[quickedit][patch][] = "https://drupal.org/files/issues/node_edit_js_error-2264607-2.patch"
-; Provide nice hidpi icons for linkit in ckeditor
-projects[linkit][patch][] = "https://drupal.org/files/issues/hidpi_ckeditor_icons-2280511-1.patch"
+; Make media_wysiwyg work with quickedit
+projects[quickedit][patch][] = "https://www.drupal.org/files/issues/media_wysiwyg_broken-2331293-5.patch"
+; Allow media tags to work in ckeditor
+projects[ckeditor][patch][] = "https://www.drupal.org/files/issues/make_ckeditor_plugin-2159403-90.patch"
 
 ; Themes ======================================================================
 
