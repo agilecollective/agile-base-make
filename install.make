@@ -101,12 +101,11 @@ projects[media][version] = 2.x-dev
 projects[media][subdir] = contrib
 projects[file_entity][version] = 2.x-dev
 projects[file_entity][subdir] = contrib
-projects[ckeditor_media][subdir] = contrib
 
 ; Patches =====================================================================
 
 ; Make media_wysiwyg work with quickedit
-projects[quickedit][patch][] = "https://www.drupal.org/files/issues/media_wysiwyg_broken-2331293-5.patch"
+projects[media][patch][] = "https://www.drupal.org/files/issues/media_wysiwyg_broken-2331293-5.patch"
 ; Allow media tags to work in ckeditor
 projects[ckeditor][patch][] = "https://www.drupal.org/files/issues/make_ckeditor_plugin-2159403-90.patch"
 
