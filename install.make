@@ -114,6 +114,9 @@ projects[media][patch][] = "https://www.drupal.org/files/issues/hidpi_icon_for_c
 projects[quickedit][patch][] = "https://www.drupal.org/files/issues/add_a_type_for_htmlawed-2341413-1.patch"
 ; Patch navbar so it works with modernizr
 projects[navbar][patch][] = "https://www.drupal.org/files/issues/navbar-2167993-12.patch"
+; Patch modernizr so it loads properly
+projects[modernizr][patch][] = "https://www.drupal.org/files/issues/undefined_offset_1_in-2342201-1.patch"
+
 ; Themes ======================================================================
 
 ; We use the adminimal theme for the admin section
