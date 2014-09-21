@@ -112,7 +112,8 @@ projects[ckeditor][patch][] = "https://www.drupal.org/files/issues/make_ckeditor
 projects[media][patch][] = "https://www.drupal.org/files/issues/hidpi_icon_for_ckeditor-2299859-4.patch"
 ; Patch quickedit for htmLawed support: 2341413
 projects[quickedit][patch][] = "https://www.drupal.org/files/issues/add_a_type_for_htmlawed-2341413-1.patch"
-
+; Patch navbar so it works with modernizr
+projects[navbar][patch][] = "https://www.drupal.org/files/issues/navbar-2167993-12.patch"
 ; Themes ======================================================================
 
 ; We use the adminimal theme for the admin section
