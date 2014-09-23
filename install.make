@@ -56,7 +56,7 @@ projects[modernizr][subdir] = contrib
 
 ; Structure
 projects[ctools][subdir] = contrib
-projects[context][subdir] = contrib
+rojects[context][subdir] = contrib
 projects[views][subdir] = contrib
 projects[libraries][subdir] = contrib
 projects[context_omega][subdir] = contrib
@@ -70,6 +70,7 @@ projects[html5_tools][subdir] = contrib
 projects[elements][subdir] = contrib
 projects[picture][subdir] = contrib
 projects[breakpoints][subdir] = contrib
+projects[styleguide][subdir] = contrib
 
 ; All other
 projects[pathauto][subdir] = contrib
