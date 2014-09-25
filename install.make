@@ -52,6 +52,7 @@ projects[environment_indicator][subdir] = contrib
 projects[maillog][subdir] = contrib
 projects[security_review][subdir] = contrib
 projects[jquery_update][subdir] = contrib
+projects[modernizr][version] = 3.x-dev
 projects[modernizr][subdir] = contrib
 
 ; Structure
