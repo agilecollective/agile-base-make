@@ -116,6 +116,8 @@ projects[media][patch][] = "https://www.drupal.org/files/issues/hidpi_icon_for_c
 projects[quickedit][patch][] = "https://www.drupal.org/files/issues/add_a_type_for_htmlawed-2341413-1.patch"
 ; Patch navbar so it works with modernizr
 projects[navbar][patch][] = "https://www.drupal.org/files/issues/navbar-2167993-12.patch"
+; Patch the styleguide module to fix javascript
+projects[styleguide][patch][] = "https://www.drupal.org/files/issues/1004246-9-styleguide-maintenance-page.patch"
 
 ; Themes ======================================================================
 
