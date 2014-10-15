@@ -57,7 +57,7 @@ projects[modernizr][subdir] = contrib
 
 ; Structure
 projects[ctools][subdir] = contrib
-rojects[context][subdir] = contrib
+projects[context][subdir] = contrib
 projects[views][subdir] = contrib
 projects[libraries][subdir] = contrib
 projects[context_omega][subdir] = contrib
