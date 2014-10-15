@@ -72,6 +72,7 @@ projects[elements][subdir] = contrib
 projects[picture][subdir] = contrib
 projects[breakpoints][subdir] = contrib
 projects[styleguide][subdir] = contrib
+projects[block_class][subdir] = contrib
 
 ; All other
 projects[pathauto][subdir] = contrib
