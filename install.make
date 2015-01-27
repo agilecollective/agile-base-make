@@ -98,6 +98,7 @@ projects[better_formats][subdir] = contrib
 projects[responsive_menu][version] = 1.x-dev
 projects[responsive_menu][subdir] = contrib
 projects[htmlawed][subdir] = contrib
+projects[smart_trim][subdir] = contrib
 
 ; Media
 projects[media][version] = 2.x-dev
