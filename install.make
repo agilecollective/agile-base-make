@@ -109,15 +109,15 @@ projects[file_entity][subdir] = contrib
 ; Patches =====================================================================
 
 ; Make media_wysiwyg work with quickedit
-projects[media][patch][] = "https://www.drupal.org/files/issues/media_wysiwyg_broken-2331293-5.patch"
+; projects[media][patch][] = "https://www.drupal.org/files/issues/media_wysiwyg_broken-2331293-5.patch"
 ; Allow media tags to work in ckeditor
-projects[ckeditor][patch][] = "https://www.drupal.org/files/issues/make_ckeditor_plugin-2159403-90.patch"
+projects[ckeditor][patch][] = "https://www.drupal.org/files/issues/make_ckeditor_plugin-2159403-164.patch"
 ; Provide some pleasing hiDPI icons for media in ckeditor
 projects[media][patch][] = "https://www.drupal.org/files/issues/hidpi_icon_for_ckeditor-2299859-4.patch"
 ; Patch quickedit for htmLawed support: 2341413
 projects[quickedit][patch][] = "https://www.drupal.org/files/issues/add_a_type_for_htmlawed-2341413-1.patch"
-; Patch navbar so it works with modernizr
-projects[navbar][patch][] = "https://www.drupal.org/files/issues/navbar-2167993-12.patch"
+; Patch modernizr so it works with navbar
+projects[modernizr][patch][] = "https://www.drupal.org/files/issues/Issue-2167993-by-hass-Increase-module-weight-to-over_0.patch"
 ; Patch the styleguide module to fix javascript
 projects[styleguide][patch][] = "https://www.drupal.org/files/issues/1004246-9-styleguide-maintenance-page.patch"
 
