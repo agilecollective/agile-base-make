@@ -113,7 +113,7 @@ projects[file_entity][subdir] = contrib
 ; Allow media tags to work in ckeditor
 projects[ckeditor][patch][] = "https://www.drupal.org/files/issues/make_ckeditor_plugin-2159403-164.patch"
 ; Provide some pleasing hiDPI icons for media in ckeditor
-projects[media][patch][] = "https://www.drupal.org/files/issues/hidpi_icon_for_ckeditor-2299859-4.patch"
+projects[media][patch][] = "https://www.drupal.org/files/issues/hidpi_icon_for_ckeditor-2299859-5.patch"
 ; Patch quickedit for htmLawed support: 2341413
 projects[quickedit][patch][] = "https://www.drupal.org/files/issues/add_a_type_for_htmlawed-2341413-1.patch"
 ; Patch modernizr so it works with navbar
