@@ -116,8 +116,6 @@ projects[ckeditor][patch][] = "https://www.drupal.org/files/issues/make_ckeditor
 projects[media][patch][] = "https://www.drupal.org/files/issues/hidpi_icon_for_ckeditor-2299859-5.patch"
 ; Patch quickedit for htmLawed support: 2341413
 projects[quickedit][patch][] = "https://www.drupal.org/files/issues/add_a_type_for_htmlawed-2341413-1.patch"
-; Patch modernizr so it works with navbar
-projects[modernizr][patch][] = "https://www.drupal.org/files/issues/Issue-2167993-by-hass-Increase-module-weight-to-over_0.patch"
 ; Patch the styleguide module to fix javascript
 projects[styleguide][patch][] = "https://www.drupal.org/files/issues/1004246-9-styleguide-maintenance-page.patch"
 
