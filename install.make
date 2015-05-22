@@ -54,6 +54,7 @@ projects[security_review][subdir] = contrib
 projects[jquery_update][subdir] = contrib
 projects[modernizr][version] = 3.x-dev
 projects[modernizr][subdir] = contrib
+projects[link_css][subdir] = contrib
 
 ; Structure
 projects[ctools][subdir] = contrib
