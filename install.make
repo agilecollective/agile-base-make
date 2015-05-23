@@ -143,7 +143,7 @@ projects[omega][version] = "4.x-dev"
 projects[ac_base][download][type] = "git"
 projects[ac_base][download][url] = "git@gitlab.agile.coop:ac_base.git"
 projects[ac_base][type] = "theme"
-projects[ac_base][download][branch] = "master"
+projects[ac_base][download][branch] = "feature/libsass"
 projects[ac_base][subdir] = "custom"
 
 ; Install Profile =============================================================
