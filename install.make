@@ -100,6 +100,9 @@ projects[responsive_menu][version] = 1.x-dev
 projects[responsive_menu][subdir] = contrib
 projects[htmlawed][subdir] = contrib
 projects[smart_trim][subdir] = contrib
+projects[google_analytics][subdir] = contrib
+projects[varnish][subdir] = contrib
+projects[mollom][subdir] = contrib
 
 ; Media
 projects[media][version] = 2.x-dev
