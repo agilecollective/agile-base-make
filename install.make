@@ -115,7 +115,7 @@ projects[media_ckeditor][subdir] = contrib
 ; Patches =====================================================================
 
 ; Provide some pleasing hiDPI icons for media in ckeditor
-projects[media][patch][] = "https://www.drupal.org/files/issues/hidpi_icon_for_ckeditor-2549407-2.patch"
+projects[media_ckeditor][patch][] = "https://www.drupal.org/files/issues/hidpi_icon_for_ckeditor-2549407-2.patch"
 ; Patch quickedit for htmLawed support: 2341413
 projects[quickedit][patch][] = "https://www.drupal.org/files/issues/add_a_type_for_htmlawed-2341413-1.patch"
 ; Patch the styleguide module to fix javascript
