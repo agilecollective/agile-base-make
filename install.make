@@ -130,7 +130,7 @@ projects[adminimal_theme][subdir] = "contrib"
 ; Omega is at the top of the theme chain.
 projects[omega][type] = "theme"
 projects[omega][subdir] = "contrib"
-projects[omega][version] = "7.x-4.4"
+projects[omega][version] = "4.4"
 
 ; Our parent base theme which in turn is based on Omega 4.
 projects[ac_base][download][type] = "git"
