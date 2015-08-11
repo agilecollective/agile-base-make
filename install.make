@@ -39,7 +39,6 @@ projects[admin_views][subdir] = contrib
 projects[views_bulk_operations][subdir] = contrib
 projects[masquerade][subdir] = contrib
 projects[coffee][subdir] = contrib
-projects[navbar][version] = 1.x-dev
 projects[navbar][subdir] = contrib
 
 ; Development
@@ -52,7 +51,6 @@ projects[environment_indicator][subdir] = contrib
 projects[maillog][subdir] = contrib
 projects[security_review][subdir] = contrib
 projects[jquery_update][subdir] = contrib
-projects[modernizr][version] = 3.x-dev
 projects[modernizr][subdir] = contrib
 projects[link_css][subdir] = contrib
 
@@ -89,10 +87,9 @@ projects[xmlsitemap][subdir] = contrib
 projects[ds][subdir] = contrib
 projects[transliteration][subdir] = contrib
 projects[menu_block][subdir] = contrib
+projects[ckeditor][version] = 1.x-dev
 projects[ckeditor][subdir] = contrib
 projects[quickedit][subdir] = contrib
-projects[quickedit][version] = 1.x-dev
-projects[linkit][version] = 3.x-dev
 projects[linkit][subdir] = contrib
 projects[honeypot][subdir] = contrib
 projects[better_formats][subdir] = contrib
@@ -103,21 +100,22 @@ projects[smart_trim][subdir] = contrib
 projects[google_analytics][subdir] = contrib
 projects[varnish][subdir] = contrib
 projects[mollom][subdir] = contrib
+projects[imageapi_optimize][subdir] = contrib
+projects[pathologic][version] = 7.x-3.x-dev
+projects[pathologic][subdir] = contrib
 
 ; Media
 projects[media][version] = 2.x-dev
 projects[media][subdir] = contrib
 projects[file_entity][version] = 2.x-dev
 projects[file_entity][subdir] = contrib
+projects[media_ckeditor][version] = 2.x-dev
+projects[media_ckeditor][subdir] = contrib
 
 ; Patches =====================================================================
 
-; Make media_wysiwyg work with quickedit
-; projects[media][patch][] = "https://www.drupal.org/files/issues/media_wysiwyg_broken-2331293-5.patch"
-; Allow media tags to work in ckeditor
-projects[ckeditor][patch][] = "https://www.drupal.org/files/issues/make_ckeditor_plugin-2159403-164.patch"
 ; Provide some pleasing hiDPI icons for media in ckeditor
-projects[media][patch][] = "https://www.drupal.org/files/issues/hidpi_icon_for_ckeditor-2299859-5.patch"
+projects[media][patch][] = "https://www.drupal.org/files/issues/hidpi_icon_for_ckeditor-2549407-2.patch"
 ; Patch quickedit for htmLawed support: 2341413
 projects[quickedit][patch][] = "https://www.drupal.org/files/issues/add_a_type_for_htmlawed-2341413-1.patch"
 ; Patch the styleguide module to fix javascript
@@ -129,18 +127,10 @@ projects[styleguide][patch][] = "https://www.drupal.org/files/issues/1004246-9-s
 projects[adminimal_theme][type] = "theme"
 projects[adminimal_theme][subdir] = "contrib"
 
-; We also have a child theme for adminimal which contains overrides or
-; improvements for the back end theme.
-projects[ac_adminimal][download][type] = "git"
-projects[ac_adminimal][download][url] = "git@gitlab.agile.coop:ac_adminimal.git"
-projects[ac_adminimal][type] = "theme"
-projects[ac_adminimal][download][branch] = "master"
-projects[ac_adminimal][subdir] = "custom"
-
 ; Omega is at the top of the theme chain.
 projects[omega][type] = "theme"
 projects[omega][subdir] = "contrib"
-projects[omega][version] = "4.x-dev"
+projects[omega][version] = "7.x-4.4"
 
 ; Our parent base theme which in turn is based on Omega 4.
 projects[ac_base][download][type] = "git"
