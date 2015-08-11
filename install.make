@@ -101,7 +101,7 @@ projects[google_analytics][subdir] = contrib
 projects[varnish][subdir] = contrib
 projects[mollom][subdir] = contrib
 projects[imageapi_optimize][subdir] = contrib
-projects[pathologic][version] = 7.x-3.x-dev
+projects[pathologic][version] = 3.x-dev
 projects[pathologic][subdir] = contrib
 
 ; Media
