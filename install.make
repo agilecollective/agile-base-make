@@ -103,6 +103,7 @@ projects[mollom][subdir] = contrib
 projects[imageapi_optimize][subdir] = contrib
 projects[pathologic][version] = 3.x-dev
 projects[pathologic][subdir] = contrib
+projects[publish_button][subdir] = contrib
 
 ; Media
 projects[media][version] = 2.x-dev
