@@ -135,7 +135,7 @@ projects[omega][version] = "4.4"
 
 ; Our parent base theme which in turn is based on Omega 4.
 projects[ac_base][download][type] = "git"
-projects[ac_base][download][url] = "git@gitlab.agile.coop:ac_base.git"
+projects[ac_base][download][url] = "git@gitlab.agile.coop:agile/ac_base.git"
 projects[ac_base][type] = "theme"
 projects[ac_base][download][branch] = "feature/libsass"
 projects[ac_base][subdir] = "custom"
@@ -144,5 +144,5 @@ projects[ac_base][subdir] = "custom"
 
 projects[agilebase][type] = "profile"
 projects[agilebase][download][type] = "git"
-projects[agilebase][download][url] = "git@gitlab.agile.coop:agile-base.git"
+projects[agilebase][download][url] = "git@gitlab.agile.coop:agile/agile-base.git"
 projects[agilebase][download][branch] = "master"
